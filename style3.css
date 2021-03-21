@@ -1,0 +1,63 @@
+body{
+	margin: 10px;
+}
+
+
+
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.head {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+.avatar{
+	object-fit: cover;
+	border-radius:50%;
+	width: 150px;
+	height: 150px;
+	margin: 5px;
+	}
+
+.text1 {
+	font-family: 'Baloo Tamma 2', cursive;
+	line-height: 80%;
+	display: inline-block;
+	padding: 5px 20px 5px 20px;
+	margin: 20px;
+
+	}
+
+.stats {
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+	word-spacing: 20%;
+    padding: 0px 0px;
+}
+
+
+
+
+
+.img{
+	object-fit: cover;
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+
+}
+
+
+
+.img:hover {
+	transform: scale(1.1);
+}
